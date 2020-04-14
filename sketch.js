@@ -30,7 +30,7 @@ function pdefault(e){
 function draw() {
  background(255);
 
- image(capture, 0, 0, windowWidth, windowHeight);
+ image(capture, 0, 0, 200, 200);
  stroke (20);
  srokeWeight (20);
  line (0, 0, a, b)
