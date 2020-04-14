@@ -28,7 +28,14 @@ function pdefault(e){
 function draw() {
  background(0);
 
-  image(capture, 0, 0, windowWidth, windowHeight);
+ image(capture, 0, 0, windowWidth, windowHeight);
+ stroke (20);
+ srokeWeight (20);
+ line (a, b, 0,0)
+ 
  
 }
-
+function touchStarted(){
+a = mouseX;
+ b = mouseY;
+}
