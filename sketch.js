@@ -31,7 +31,7 @@ function pdefault(e){
 
 function draw() {
   update();
-   fill(value)
+   fill(255)
 ellipse (100, 100, a, b);
  
 }
