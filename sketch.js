@@ -30,7 +30,7 @@ function draw() {
 
  image(capture, 0, 0, windowWidth, windowHeight);
 stroke(255);
-  if (mouseIsPressed === true) {
+  if (touchStarted === true) {
     line(mouseX, mouseY, pmouseX, pmouseY);
  
  
