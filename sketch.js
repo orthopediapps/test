@@ -28,7 +28,7 @@ function pdefault(e){
 
 }
 function draw() {
- background(0);
+ background(255);
 
  image(capture, 0, 0, windowWidth, windowHeight);
  stroke (20);
