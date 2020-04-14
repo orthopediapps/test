@@ -5,7 +5,7 @@ function setup() {
  createCanvas(windowWidth, windowHeight);
    capture = createCapture(VIDEO);
   capture.size = (windowWidth, windowHeight);
- //capture.hide();
+ capture.hide();
   //disable default touch events for mobile
  var el = document.getElementsByTagName("canvas")[0];
   el.addEventListener("touchstart", pdefault, false);
