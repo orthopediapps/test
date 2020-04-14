@@ -30,23 +30,14 @@ function pdefault(e){
 function draw() {
   update();
    fill(value)
-ellipse (100, 100, 40, 40);
+ellipse (100, 100, a, b);
  
 }
 
-function update(){
-  //normalize interaction
-  m.x = max(touchX, mouseX);
-  m.y = max(touchY, mouseY);
-  m.pressed = mouseIsPressed || touchIsDown;
 
-}
 
 function touchStarted(){
-   if (value === 0) {
-    value = 255;
-  } else {
-    value = 0;
-  }
+  a = mouseX;
+  b = mouseY;
 }
  
