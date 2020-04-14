@@ -31,13 +31,14 @@ function draw() {
  background(0);
 
  image(capture, 0, 0, windowWidth, windowHeight);
- stroke (20);
+ stroke (255);
  srokeWeight (20);
- line (a, b, 0,0)
+ line (0, 0, a, b)
  
  
 }
-function touchStarted(){
+function touchStarted(){ if (touchStarted == true){
 a = mouseX;
  b = mouseY;
+}
 }
