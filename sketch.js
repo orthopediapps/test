@@ -44,7 +44,7 @@ function update(){
 
 }
 
-function touchStarted(){
+function touchIsMoved(){
    a = mouseX;
   b = mouseY;
   
