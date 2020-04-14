@@ -29,7 +29,9 @@ function draw() {
  background(0);
 
  image(capture, 0, 0, windowWidth, windowHeight);
-
+stroke(255);
+  if (mouseIsPressed === true) {
+    line(mouseX, mouseY, pmouseX, pmouseY);
  
  
 }
