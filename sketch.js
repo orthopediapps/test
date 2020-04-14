@@ -1,6 +1,6 @@
 let capture;
-let a = 0;
-let b = 0;
+var a;
+var b;
 
 
 function setup() {
@@ -37,8 +37,7 @@ function draw() {
  
  
 }
-function touchStarted(){ if (touchStarted == true){
+function touchStarted(){ 
 a = mouseX;
  b = mouseY;
-}
 }
