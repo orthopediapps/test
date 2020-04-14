@@ -3,6 +3,8 @@ var touchX = 0;
 var touchY = 0;
 var touchIsDown;
 var value =0;
+var a = 0;
+var b = 0;
 
 
 function setup() {
