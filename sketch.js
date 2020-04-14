@@ -1,6 +1,4 @@
 let capture;
-var a;
-var b;
 
 
 function setup() {
@@ -31,13 +29,7 @@ function draw() {
  background(0);
 
  image(capture, 0, 0, 200, 200);
- stroke (20);
- srokeWeight (20);
- line (0, 0, a, b)
+
  
  
-}
-function touchStarted(){ 
-a = mouseX;
- b = mouseY;
 }
