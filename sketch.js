@@ -3,8 +3,8 @@ var touchX = 0;
 var touchY = 0;
 var touchIsDown;
 var value =0;
-var a = 0;
-var b = 0;
+let a = 0;
+let b = 0;
 
 
 function setup() {
@@ -31,15 +31,22 @@ function pdefault(e){
 
 function draw() {
   update();
-   fill(255)
+   fill(value)
 ellipse (100, 100, a, b);
  
 }
 
+function update(){
+  //normalize interaction
+  m.x = max(touchX, mouseX);
+  m.y = max(touchY, mouseY);
+  m.pressed = mouseIsPressed || touchIsDown;
 
+}
 
 function touchStarted(){
-  a = mouseX;
+   a = mouseX;
   b = mouseY;
+  
 }
  
