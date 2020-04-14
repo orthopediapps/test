@@ -28,7 +28,7 @@ function pdefault(e){
 function draw() {
  background(0);
 
-  image(capture, 0, 0, 100, width * capture.height / capture.width);
+  image(capture, 0, 0, windowWidth, windowHeight);
  
 }
 
