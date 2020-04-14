@@ -31,7 +31,7 @@ function draw() {
  background(0);
 
  image(capture, 0, 0, windowWidth, windowHeight);
- stroke (255);
+ stroke (20);
  srokeWeight (20);
  line (0, 0, a, b)
  
