@@ -1,4 +1,6 @@
 let capture;
+let a = 0;
+let b = 0;
 
 
 function setup() {
