@@ -14,6 +14,7 @@ let refX, refY, refZ, refR, refAngle, greenwich_epoch, now_epoch, ref_epoch, dir
 let texto;
 let mapwidth = 800;
 let resize = false;
+let planet;
 
 
 
